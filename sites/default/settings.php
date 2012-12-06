@@ -205,7 +205,7 @@ $databases = array (
   array (
     'default' => 
     array (
-      'database' => 'dev.energy',
+      'database' => 'energy',
       'username' => 'root',
       'password' => '',
       'host' => 'localhost',
