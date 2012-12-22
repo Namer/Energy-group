@@ -1,0 +1,8 @@
+/* CSS Document */
+
+#block-system-main-menu ul li a,
+#block-system-main-menu ul li a:hover,
+#block-system-main-menu ul li a.active {
+  background: #8A0509;
+  color: #ffffff;
+}

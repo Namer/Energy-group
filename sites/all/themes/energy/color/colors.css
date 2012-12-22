@@ -103,15 +103,15 @@ h2#site-slogan {
   color: #4d453e;
   background-color: #e1dfdc;
 }
-.nav .block-menu ul a:focus,
+/*.nav .block-menu ul a:focus,
 .nav .block-menu ul a:hover,
 .nav .block-menu ul a:active {
-  background: #ffffff;
+  background: #ffffff; 
 }
 .nav .block-menu ul li a.active {
   color: #4d453e;
-  background-color: #ffffff;
-}
+  background-color: #ffffff; 
+} */  /* custom comment */
 
 /* Superfish Skin - we keep the Superfish skin seperate so we can special case
    if we really need to */

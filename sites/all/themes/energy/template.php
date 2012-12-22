@@ -1,10 +1,10 @@
 <?php
-// Sky by Adaptivethemes.com
+// Energy by Adaptivethemes.com
 
 /**
  * Override or insert variables into the html template.
  */
-function sky_preprocess_html(&$vars) {
+function energy_preprocess_html(&$vars) {
   global $theme_key;
   $theme_name = $theme_key;
 
@@ -37,7 +37,7 @@ function sky_preprocess_html(&$vars) {
 /**
  * Override or insert variables into the html template.
  */
-function sky_process_html(&$vars) {
+function energy_process_html(&$vars) {
   // Hook into the color module.
   if (module_exists('color')) {
     _color_html_alter($vars);
@@ -47,7 +47,7 @@ function sky_process_html(&$vars) {
 /**
  * Override or insert variables into the page template.
  */
-function sky_preprocess_page(&$vars) {
+function energy_preprocess_page(&$vars) {
   if ($vars['page']['footer'] || $vars['page']['four_first']|| $vars['page']['four_second'] || $vars['page']['four_third'] || $vars['page']['four_fourth']) {
     $vars['classes_array'][] = 'with-footer';
   }
@@ -56,7 +56,7 @@ function sky_preprocess_page(&$vars) {
 /**
  * Override or insert variables into the page template.
  */
-function sky_process_page(&$vars) {
+function energy_process_page(&$vars) {
   // Hook into the color module.
   if (module_exists('color')) {
     _color_page_alter($vars);
@@ -66,7 +66,7 @@ function sky_process_page(&$vars) {
 /**
  * Override or insert variables into the block template.
  */
-function sky_preprocess_block(&$vars) {
+function energy_preprocess_block(&$vars) {
   if ($vars['block']->module == 'superfish' || $vars['block']->module == 'nice_menu') {
     $vars['content_attributes_array']['class'][] = 'clearfix';
   }
@@ -81,7 +81,7 @@ function sky_preprocess_block(&$vars) {
 /**
  * Override or insert variables into the node template.
  */
-function sky_preprocess_node(&$vars) {
+function energy_preprocess_node(&$vars) {
   // Add class if user picture exists
   if ($vars['user_picture']) {
     $vars['header_attributes_array']['class'][] = 'with-picture';
@@ -91,7 +91,7 @@ function sky_preprocess_node(&$vars) {
 /**
  * Override or insert variables into the comment template.
  */
-function sky_preprocess_comment(&$vars) {
+function energy_preprocess_comment(&$vars) {
   // Add class if user picture exists
   if ($vars['picture']) {
     $vars['header_attributes_array']['class'][] = 'with-user-picture';
@@ -102,7 +102,7 @@ function sky_preprocess_comment(&$vars) {
 /**
  * Process variables for region.tpl.php
  */
-function sky_process_region(&$vars) {
+function energy_process_region(&$vars) {
   // Add the click handle inside region menu bar
   if ($vars['region'] === 'menu_bar') {
     $vars['inner_prefix'] = '<h2 class="menu-toggle"><a href="#">' . t('Menu') . '</a></h2>';

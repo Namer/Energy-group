@@ -7,7 +7,7 @@
  * @param $form_state
  *   A keyed array containing the current state of the form.
  */
-function sky_form_system_theme_settings_alter(&$form, &$form_state) {
+function energy_form_system_theme_settings_alter(&$form, &$form_state) {
 
   // Include a hidden form field with the current release information
   $form['at-release'] = array(

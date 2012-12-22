@@ -11,7 +11,7 @@
 
 
 ;----------// CSS
-
+  stylesheets[all][] = css/energy.css
   stylesheets[all][] = css/html-elements.css
   stylesheets[all][] = css/forms.css
   stylesheets[all][] = css/tables.css
