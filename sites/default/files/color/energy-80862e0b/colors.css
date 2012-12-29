@@ -1,6 +1,6 @@
 /* Page */
 html, body {
-  background-color: #a21a2e;
+  background-color: #382d49;
   color: #000000;
 }
 
@@ -8,39 +8,39 @@ ul.secondary,
 .section-collapsible,
 .region-highlighted,
 #columns {
-  background-color: #fffffe;
+  background-color: #ffffff;
 }
 
 /* tasks */
 #skip-link a,
 ul.tabs li a,
 ul.tabs li a:visited {
-  background-color: #fffffe;
-  color: #101010;
+  background-color: #efedea;
+  color: #000000;
 }
 ul.tabs li a:hover,
 ul.tabs li a:focus,
 ul.tabs li a:active,
 ul.tabs li a.active,
 ul.tabs li a.active:visited {
-  background-color: #efedeb;
-  color: #111111;
+  background-color: #382d48;
+  color: #ffffff;
 }
 
 /* Links */
 a,
 a:visited {
-  color: #cf3f54;
+  color: #4f1b88;
 }
 a:hover,
 a:focus,
 a:active {
-  color: #42a9be;
+  color: #8e45d3;
 }
 .pager a:hover,
 .pager a:active,
 .pager a:focus {
-  background-color: #cf3f54;
+  background-color: #4f1b88;
   color: #ffffff;
 }
 
@@ -50,7 +50,7 @@ h1#site-name a:visited {
   color: #ffffff;
 }
 h2#site-slogan {
-  color: #ffffff;
+  color: #ccbcd2;
 }
 
 /* Header */
@@ -58,11 +58,11 @@ h2#site-slogan {
 .nav .block-menu,
 .region-header h2.block-title,
 .nav .block-menu h2.block-title {
-  color: #ffffff;
+  color: #cccccc;
 }
 .region-header a,
 .region-header a:visited {
-  color: #aaaaaa;
+  color: #997da6;
 }
 .region-header a:hover,
 .region-header a:focus,
@@ -74,13 +74,13 @@ h2#site-slogan {
 .breadcrumb,
 #page > footer,
 #page > footer .block-title {
-  background-color: #8a0509;
-  color: #ffffff;
+  background-color: #4a3f5a;
+  color: #f8f2f2;
 }
 .breadcrumb a,
 #page > footer a,
 #page > footer a:visited {
- color: #aaaaaa;
+ color: #b195b0;
 }
 .breadcrumb a:hover,
 .breadcrumb a:focus,
@@ -93,66 +93,66 @@ h2#site-slogan {
 
 /* Menu bar */
 .menu-toggle a {
-  color: #ffffff;
-  background-color: #fffffe;
+  color: #000000;
+  background-color: #ffffff;
 }
 #menu-bar-wrapper {
   background: transparent;
 }
 .nav .block-menu ul li a {
-  color: #ffffff;
-  background-color: #8a0509;
+  color: #000000;
+  background-color: #ada2b4;
 }
-.nav .block-menu ul a:focus,
+/*.nav .block-menu ul a:focus,
 .nav .block-menu ul a:hover,
 .nav .block-menu ul a:active {
-  background: #fffffe;
+  background: #ffffff; 
 }
 .nav .block-menu ul li a.active {
-  color: #ffffff;
-  background-color: #fffffe;
-}
+  color: #000000;
+  background-color: #ffffff; 
+} */  /* custom comment */
 
 /* Superfish Skin - we keep the Superfish skin seperate so we can special case
    if we really need to */
 .sf-menu.sf-style-default a {
    border: 0;
-   color: #ffffff;
-   background-color: #8a0509;
+   color: #000000;
+   background-color: #ada2b4;
 }
 .sf-menu.sf-style-default li.last a {
 }
 .sf-menu.sf-style-default a,
 .sf-menu.sf-style-default a:visited {
-  color: #ffffff;
+  color: #000000;
 }
 .sf-menu.sf-style-default span.sf-description {
-  color: #ffffff;
+  color: #000000;
 }
 .sf-menu.sf-style-default li li,
 .sf-menu.sf-style-default.sf-navbar li ul {
   background-color: #ffffff;
 }
 .sf-menu.sf-style-default li li li {
-  background-color: #efedeb;
+  background-color: #382d48;
 }
 .sf-menu.sf-style-default li {
   background: transparent;
 }
 .sf-menu.sf-style-default.sf-navbar {
-  background: #efedeb;
+  background: #382d48;
 }
 .sf-menu.sf-style-default li a,
 .sf-menu.sf-style-default li a:visited {
-  color: #ffffff;
+  color: #000000;
 }
 .sf-menu.sf-style-default li:hover,
 .sf-menu.sf-style-default li.sfHover,
 .sf-menu.sf-style-default a:focus,
 .sf-menu.sf-style-default a:hover,
 .sf-menu.sf-style-default a:active {
-  background-color: #fffffe;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #000000;
 }
 /* Reverse colors for sub menus */
 .sf-menu.sf-style-default li li:hover,
@@ -160,17 +160,17 @@ h2#site-slogan {
 .sf-menu.sf-style-default li li a:focus,
 .sf-menu.sf-style-default li li a:hover,
 .sf-menu.sf-style-default li li a:active {
-  background-color: #ffffff;
-  color: #fffffe;
+  background-color: #000000;
+  color: #ffffff;
 }
 .sf-menu.sf-style-default .active-trail.sf-depth-1,
 .sf-menu.sf-style-default .sf-depth-1 > a.active {
-  color: #ffffff;
-  background-color: #fffffe;
+  color: #000000;
+  background-color: #ffffff;
 }
 #menu-bar-wrapper .sf-menu.sf-style-default .active-trail.sf-depth-1,
 #menu-bar-wrapper .sf-menu.sf-style-default .sf-depth-1 > a.active {
-  background-color: #fffffe;
+  background-color: #ffffff;
 }
 /* .sf-navbar */
 .sf-navbar.sf-style-default li ul {
@@ -193,46 +193,46 @@ h2#site-slogan {
   .sf-menu.sf-style-default li li a:hover,
   .sf-menu.sf-style-default li li a:active,
   .sf-menu.sf-style-default li li a:visited {
-    background-color: #ffffff;
-    color: #8a0509;
+    background-color: #000000;
+    color: #ada2b4;
   }
 }
 
 /* top menu bar */
 .region-top-menu {
-  background-color: #fffffe;
+  background-color: #ffffff;
 }
 .region-top-menu a {
-  color: #ffffff;
+  color: #000000;
 }
 .region-top-menu .sf-menu.sf-style-default > li > a {
   border: 0;
-  color: #ffffff;
+  color: #000000;
   background-color: transparent;
 }
 
 /* Node links */
 article .links a,
 article .links a:visited {
-  background-color: #e7e5e3;
-  color: #54493e;
+  background-color: #ddd6e0;
+  color: #000000;
 }
 article .links a:hover,
 article .links a:focus,
 article .links a:active {
   background-color: #d7d5d3;
-  color: #42382e;
+  color: #000000;
 }
 
 /* Titles */
 h1 {
-  color: #000000;
+  color: #5f3276;
 }
 h2 {
-  color: #999999; /* need to update */
+  color: #666666; /* need to update */
 }
 .comment header h3 a,
 h1 a,
 h1.node-title a {
-  color: #000000;
+  color: #482762;
 }
