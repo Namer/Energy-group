@@ -1,8 +1,26 @@
 /* CSS Document */
 
+/*
+
 #block-system-main-menu ul li a,
 #block-system-main-menu ul li a:hover,
 #block-system-main-menu ul li a.active {
   background: #8A0509;
   color: #ffffff;
+}
+
+*/
+#block-block-2,
+#block-block-3 {
+  float: left;
+}
+
+#block-menu-menu-footer-menu ul {
+  float: right;
+}
+
+#block-menu-menu-footer-menu ul li {
+  display: inline;
+  list-style: none;
+  margin-right: 10px;
 }
